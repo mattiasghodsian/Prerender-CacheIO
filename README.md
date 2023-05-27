@@ -18,3 +18,18 @@
 </p>
 
 A Dockerized [Prerender](https://github.com/prerender/prerender) container, designed to boost web page performance through file-based caching.
+
+## Getting Started
+
+These instructions will help you to set up Prerender-CacheIO on your machine using Docker and Docker Compose.
+
+**Clone the repository**
+
+```bash
+git clone https://github.com/mattiasghodsian/Prerender-CacheIO.git && cd Prerender-CacheIO
+```
+
+**Build and run the Docker container** 
+```bash
+docker-compose up -d
+```
