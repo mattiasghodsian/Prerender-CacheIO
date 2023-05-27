@@ -35,4 +35,4 @@ docker-compose up -d
 ```
 
 ## ToDo
-- The current cache file life span is 24h, this will be changed later as an env argument
+- [ ] The current configuration sets the cache file lifespan to 24 hours. In future updates, this will be modifiable through an environment variable argument.
