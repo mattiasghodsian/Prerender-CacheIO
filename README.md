@@ -17,7 +17,7 @@
     </a>
 </p>
 
-A Dockerized [Prerender](https://github.com/prerender/prerender) container, designed to boost web page performance through file-based caching.
+A Dockerized [Prerender (v5.20.2)](https://github.com/prerender/prerender) container, designed to boost web page performance through file-based caching.
 
 ## Getting Started
 
