@@ -33,3 +33,6 @@ git clone https://github.com/mattiasghodsian/Prerender-CacheIO.git && cd Prerend
 ```bash
 docker-compose up -d
 ```
+
+## ToDo
+- The current cache file life span is 24h, this will be changed later as an env argument
