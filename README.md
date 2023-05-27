@@ -23,13 +23,24 @@ A Dockerized [Prerender](https://github.com/prerender/prerender) container, desi
 
 These instructions will help you to set up Prerender-CacheIO on your machine using Docker and Docker Compose.
 
-**Clone the repository**
+**Build and run the Docker container** 
 
-```bash
-git clone https://github.com/mattiasghodsian/Prerender-CacheIO.git && cd Prerender-CacheIO
+```yml
+version: "3"
+services:
+  prerender:
+    image: rakma/prerender-cache-io:latest
+    container_name: prerenderCacheIO
+    networks:
+      - default
+    volumes:
+      - ./cache:/srv/cache
+      #- ./prerender:/srv/prerender
+    ports:
+      - "3001:3000"
+    restart: always
 ```
 
-**Build and run the Docker container** 
 ```bash
 docker-compose up -d
 ```
